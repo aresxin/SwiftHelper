@@ -1,0 +1,18 @@
+#!/bin/bash -x
+
+## 修改文件中的值
+## sed  -i
+
+#获取shell文件所在的绝对路径
+current_path=$(pwd)
+plist_file=$(pwd)/index.html
+echo ${plist_file}
+echo plist_file
+sed  -i "" 's/dev/Demo/g' ${plist_file}
+
+## Refer
+## https://blog.csdn.net/lgh1117/article/details/50094595
+## https://stackoverflow.com/questions/26201821/editing-plist-file-using-shell-script
+## https://sourcegraph.com/search?origin=sed&q=repo%3A%5Egithub.com%2Fwangdoc%2Fbash-tutorial%24+sed&patternType=literal
+## https://unix.stackexchange.com/questions/270953/whats-the-best-way-to-edit-a-file-with-a-bash-scrip
+
