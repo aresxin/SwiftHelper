@@ -48,21 +48,8 @@ public struct UserDefault<Value> {
         }
     }
 
+    // wrapper’s projected value
     public var projectedValue: AnyPublisher<Value, Never> {
         return publisher.eraseToAnyPublisher()
     }
 }
-
-// MARK: Example
-/*
-extension UserDefaults {
-    @UserDefault(key: "username", defaultValue: "Antoine van der Lee")
-    static var username: String
-}
-
-let subscription = UserDefaults.$username.sink { username in
-    print("New username: \(username)")
-}
-UserDefaults.username = "Test"
-// Prints: New username: Test
-*/
