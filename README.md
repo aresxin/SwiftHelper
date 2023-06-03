@@ -3,6 +3,7 @@
 Convenience classes wrapped with Swift features and useful Swift extensions
 
 ## AttributedStringBuilder
+AttributedString Builder encapsulated using the Swift resultBuilder feature
 
 <img width="103" alt="Screenshot 2023-06-03 at 21 38 06" src="https://github.com/aresxin/SwiftHelper/assets/12081433/43c32ba7-fb18-4145-b1f5-a3bb291236c7">
 
