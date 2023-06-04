@@ -45,6 +45,8 @@ public struct UserDefault<Value> {
             } else {
                 container.set(newValue, forKey: key)
             }
+            
+            publisher.send(newValue)
         }
     }
 
