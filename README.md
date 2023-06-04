@@ -32,3 +32,14 @@ let build = NSAttributedString {
 }
 
 ```
+
+## Building Alert using DSL
+```
+ let alertController = ActionSheet(title: "", message: nil) {
+            Action.default("Share") {  }
+            Action.default("Download") { }
+            Action.cancel("Cancel") {  }
+        }
+ present(alertController, animated: true, completion: nil)
+ 
+```
