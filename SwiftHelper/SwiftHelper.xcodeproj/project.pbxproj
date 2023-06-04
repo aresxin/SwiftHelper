@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31F83C162A2C6742004ED790 /* AlertBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F83C142A2C6742004ED790 /* AlertBuilder.swift */; };
+		31F83C172A2C6742004ED790 /* AnyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F83C152A2C6742004ED790 /* AnyBuilder.swift */; };
 		A677726927CC86BF00214175 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = A677726827CC86BF00214175 /* Protected.swift */; };
 		A6A6036027E9809400F64C8C /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A6035F27E9809400F64C8C /* Dictionary+Extension.swift */; };
 		A6A6036227E9810200F64C8C /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A6036127E9810200F64C8C /* URL+Extension.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31F83C142A2C6742004ED790 /* AlertBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertBuilder.swift; sourceTree = "<group>"; };
+		31F83C152A2C6742004ED790 /* AnyBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyBuilder.swift; sourceTree = "<group>"; };
 		A677726827CC86BF00214175 /* Protected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protected.swift; sourceTree = "<group>"; };
 		A6A6035F27E9809400F64C8C /* Dictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
 		A6A6036127E9810200F64C8C /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				A6CBFD4027CC83B900153C56 /* UserDefault.swift */,
+				31F83C142A2C6742004ED790 /* AlertBuilder.swift */,
+				31F83C152A2C6742004ED790 /* AnyBuilder.swift */,
 				A6CBFD4127CC83B900153C56 /* UIView+Helper.swift */,
 				A6CBFD4227CC83B900153C56 /* ButtonBuilder.swift */,
 				A6CBFD4327CC83B900153C56 /* AttributedStringBuilder.swift */,
@@ -194,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31F83C162A2C6742004ED790 /* AlertBuilder.swift in Sources */,
 				A6CBFD4727CC83B900153C56 /* UserDefault.swift in Sources */,
 				A6CBFD4927CC83B900153C56 /* ButtonBuilder.swift in Sources */,
 				A6CBFD3027CC835C00153C56 /* ViewController.swift in Sources */,
@@ -206,6 +213,7 @@
 				A6CBFD4A27CC83B900153C56 /* AttributedStringBuilder.swift in Sources */,
 				A6A6036227E9810200F64C8C /* URL+Extension.swift in Sources */,
 				A6C7BD1F27E863570078567A /* Collection+Extension.swift in Sources */,
+				31F83C172A2C6742004ED790 /* AnyBuilder.swift in Sources */,
 				A6CBFD2C27CC835C00153C56 /* AppDelegate.swift in Sources */,
 				A6CBFD4D27CC83B900153C56 /* NSKeyedArchiver+Helper.swift in Sources */,
 				A6CBFD2E27CC835C00153C56 /* SceneDelegate.swift in Sources */,
