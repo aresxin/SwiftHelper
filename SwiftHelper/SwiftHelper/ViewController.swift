@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     @IBAction private func actionActionSheet() {
         let alertController = ActionSheet(title: "", message: nil) {
             Action.default("Share") {  }
-            Action.default("Report") {  }
             Action.default("Download") { }
             Action.cancel("Cancel") {  }
         }
