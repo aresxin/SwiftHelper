@@ -33,7 +33,7 @@ let build = NSAttributedString {
 
 ```
 
-## Building Alert using a DSL
+## Building Alert using DSL
 ```
  let alertController = ActionSheet(title: "", message: nil) {
             Action.default("Share") {  }
