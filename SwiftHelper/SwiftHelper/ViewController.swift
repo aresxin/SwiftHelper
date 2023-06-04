@@ -11,6 +11,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        btn.config {
+            BC.title("DSL", .normal)
+            BC.title("DSL highlighted", .highlighted)
+            BC.color(.red, .normal)
+            BC.color(.yellow, .highlighted)
+        }
+      
     }
     
     @IBAction private func actionActionSheet() {

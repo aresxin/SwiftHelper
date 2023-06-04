@@ -36,6 +36,9 @@
                             <constraint firstItem="BEF-YB-DD2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="xpL-6n-BsH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btn" destination="BEF-YB-DD2" id="f2t-Gp-ZYF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
